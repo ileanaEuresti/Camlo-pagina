@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historias de Usuarios</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="quien_soy.html">¿Quién soy?</a>
+        <a href="comida.html">¿Qué como?</a>
+        <a href="galeria.html">Galería de Fotos</a>
+        <a href="historias.html">Historias de Usuarios</a>
+    </nav>
+    
+    <h1>Historias de Usuarios</h1>
+    
+    <div class="user-stories">
+        <h2>Comparte la historia de tu mascota</h2>
+        <form action="submit_story.php" method="post" enctype="multipart/form-data">
+            <label for="nombre">Nombre de tu mascota:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            
+            <label for="historia">Tu historia:</label><br>
+            <textarea id="historia" name="historia" rows="4" cols="50" required></textarea><br><br>
+            
+            <label for="imagen">Sube una foto:</label>
+            <input type="file" id="imagen" name="imagen" accept="image/*" required><br><br>
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
