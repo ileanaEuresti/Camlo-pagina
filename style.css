@@ -127,7 +127,7 @@ form label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-    color: #ffcb05;
+    color: #05b8ff;
 }
 
 form input[type="text"],
@@ -135,7 +135,7 @@ form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 2px solid #ffcb05;
+    border: 2px solid #3305ff;
     border-radius: 10px;
 }
 
